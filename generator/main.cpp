@@ -79,6 +79,8 @@ int main (int argc, char** args)
   /* initialize random seed: */
   srand (time(NULL));
 
+  system("clear");
+
   for(int i = 0; i < players; i++)
   {
   	std::cout << "Spieler " << (i+1) << std::endl;
